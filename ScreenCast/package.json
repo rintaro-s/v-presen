@@ -1,0 +1,12 @@
+{
+  "name": "arsist-screencast",
+  "productName": "Arsist ScreenCast",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PC の画面 / ウィンドウを MJPEG で LAN に配信し、Quest からのスライド送りを受ける (doc/23 §5)",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "headless": "electron . --headless --source screen:0 --name slides"
+  }
+}
